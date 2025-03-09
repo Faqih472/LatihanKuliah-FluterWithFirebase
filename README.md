@@ -1,16 +1,44 @@
-# biodata
+Berikut ringkasan untuk README.md di GitHub:  
 
-A new Flutter project.
+---  
 
-## Getting Started
+# Firebase Biodata CRUD in Flutter  
 
-This project is a starting point for a Flutter application.
+Proyek ini adalah aplikasi Flutter sederhana yang mengimplementasikan operasi CRUD (Create, Read, Update, Delete) menggunakan Firebase Firestore.  
 
-A few resources to get you started if this is your first Flutter project:
+## 📌 Fitur  
+- Menambahkan biodata (nama, usia, alamat)  
+- Menampilkan daftar biodata dari Firestore  
+- Mengedit biodata yang sudah ada  
+- Menghapus biodata dari Firestore  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Teknologi yang Digunakan  
+- Flutter  
+- Firebase Firestore  
+- Dart  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+ **Tambahkan Firebase ke proyek Flutter**  
+   - Buat proyek di [Firebase Console](https://console.firebase.google.com/)  
+   - Unduh `google-services.json` untuk Android dan letakkan di `android/app/`  
+   - Unduh `firebase-options.dart` untuk Web jika diperlukan  
+ **Jalankan aplikasi**  
+   ```sh  
+   flutter pub get  
+   flutter run  
+   ```  
+
+## 📂 Struktur Proyek  
+```
+/lib
+│── main.dart          # Entry point aplikasi
+│── homepage.dart      # UI untuk menampilkan dan mengelola biodata
+│── biodataservice.dart # Layanan untuk CRUD di Firestore
+│── widgets/           # (Opsional) Komponen UI tambahan
+```  
+
+
+
+---
+
+Kalau ada yang perlu ditambahkan, beri tahu saya! 😊
