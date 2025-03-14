@@ -25,16 +25,6 @@ SS:
 - Dart  
 
 
- **Tambahkan Firebase ke proyek Flutter**  
-   - Buat proyek di [Firebase Console](https://console.firebase.google.com/)  
-   - Unduh `google-services.json` untuk Android dan letakkan di `android/app/`  
-   - Unduh `firebase-options.dart` untuk Web jika diperlukan  
- **Jalankan aplikasi**  
-   ```sh  
-   flutter pub get  
-   flutter run  
-   ```  
-
 ## 📂 Struktur Proyek  
 ```
 /lib
